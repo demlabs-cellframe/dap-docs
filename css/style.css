@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'Roboto Condensed';
+	src: url('../fonts/RobotoCondensed-Regular.ttf');
+}
+@font-face {
+	font-family: 'Robot Regular';
+	src: url('../fonts/Robot-Regular.ttf');
+}
+@font-face {
+	font-family: 'Robot Light';
+	src: url('../fonts/Robot-Light.ttf');
+}
+
+body {
+	background-color: #eff7f7;
+}
+
+.container {
+	margin-left: 15%;
+	margin-right: 15%;
+	box-sizing: border-box;
+}
+#head {
+	background-color: #021e1b;
+	text-align: center;
+	background-image: url("../images/DemlabsLogo.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position-x: 50%;
+	height: 30%;
+	width: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1030;
+}
+.content {
+	margin-top:20%;
+	display: block;
+	padding-left:1%;
+	padding-top:3px;
+	padding-bottom:3px;
+}
+
+.row{
+	display: -ms-flexbox;
+	display: flex;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+	margin-right: -15px;
+	margin-left: -15px;
+}
+
+.col {
+	-ms-flex: 0 0 50%;
+	flex: 0 0 50%;
+	max-width: 45%;
+	background-color: #ffffff;
+	color: #242424;
+	margin: 5px;
+	padding: 1px;
+}
+
+.col .description {
+	min-height: 100px;
+	font-family: 'Robot Regular';
+}
+.col .updated {
+	font-family: 'Robot Light';
+	color: #898f8e;
+}
+
+.col a {
+	display: block;
+	text-decoration: none;
+	outline: none;
+	color: #005348;
+	font-family: 'Roboto Condensed';
+	font-weight: bold;
+	font-size: 18pt;
+}
+
+h2.main {
+	font-family: 'Roboto Condensed';
+	font-size: 25pt;
+	text-align: center;
+	color: #005348;
+}
