@@ -16,18 +16,17 @@ body {
 }
 
 .container {
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 20%;
+	margin-right: 20%;
 	box-sizing: border-box;
 }
 #head {
 	background-color: #021e1b;
 	text-align: center;
-	background-image: url("../images/DemlabsLogo.png");
 	background-repeat: no-repeat;
 	background-size: contain;
-	background-position-x: 50%;
-	height: 30%;
+	background-position-x: 45%;
+	height: 35%;
 	width: auto;
 	position: fixed;
 	top: 0;
@@ -35,8 +34,13 @@ body {
 	right: 0;
 	z-index: 1030;
 }
+#head img{
+	margin-top:3%;
+	width: 400px;
+	height: auto;
+}
 .content {
-	margin-top:20%;
+	margin-top:35%;
 	display: block;
 	padding-left:1%;
 	padding-top:3px;
@@ -58,17 +62,24 @@ body {
 	max-width: 45%;
 	background-color: #ffffff;
 	color: #242424;
-	margin: 5px;
-	padding: 1px;
+	margin: 7px;
+	padding: 5px;
+	-webkit-box-shadow: 0 3px 7px 1px rgba(0,38,38,.06);
+	-moz-box-shadow: 0 3px 7px 1px rgba(0,38,38,.06);
+	box-shadow: 0 3px 7px 1px rgba(0,38,38,.06);
 }
 
 .col .description {
 	min-height: 100px;
-	font-family: 'Robot Regular';
+	font-family: 'Robot Light';
+	font-weight: light;
+	font-size: 18px;
+	color: #021e1b;
 }
 .col .updated {
-	font-family: 'Robot Light';
-	color: #898f8e;
+	font-family: "Roboto Regular";
+	font-size: 14px;
+	color: #9ba1a0;
 }
 
 .col a {
@@ -79,11 +90,13 @@ body {
 	font-family: 'Roboto Condensed';
 	font-weight: bold;
 	font-size: 18pt;
+	margin-bottom: 10pt;
 }
 
-h2.main {
+.main {
 	font-family: 'Roboto Condensed';
-	font-size: 25pt;
+	font-size: 38px;
 	text-align: center;
 	color: #005348;
+	margin-bottom:5%;
 }
