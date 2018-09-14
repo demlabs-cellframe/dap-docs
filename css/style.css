@@ -35,9 +35,11 @@ body {
 	z-index: 1030;
 }
 #head img{
-	margin-top:3%;
-	width: 400px;
-	height: auto;
+	/*margin-top:3%;*/
+	width: auto;
+	height: 161px;
+	/*width: 400px;
+	height: auto;*/
 }
 .content {
 	margin-top:35%;
@@ -95,7 +97,9 @@ body {
 
 .main {
 	font-family: 'Roboto Condensed';
-	font-size: 38px;
+	font-size: 30px;
+	margin-left: 5%;
+	margin-right: 5%;
 	text-align: center;
 	color: #005348;
 	margin-bottom:5%;
